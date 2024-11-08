@@ -11,8 +11,14 @@ export default {
 
     theme: {
         extend: {
+
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+            },
+
+            animation: {
+                wiggle: 'wiggle 1s ease-in-out infinite',
+                'song-scroll' : 'song-scroll 10s linear infinite', 
             },
         },
     },
